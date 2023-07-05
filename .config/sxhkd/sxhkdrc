@@ -13,7 +13,7 @@ super + @space
 super + {shift} + @space
 	rofi -show run
 # rofi alt+tab
-alt + @tab
+alt + Tab
 	rofi -show window
 
 # make sxhkd reload its configuration files:
