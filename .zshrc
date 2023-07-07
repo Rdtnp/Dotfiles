@@ -19,6 +19,14 @@ alias nvfix="killall obs&&sudo rmmod nvidia_uvm && sudo modprobe nvidia_uvm"
 alias reboot="doas reboot -f now"
 alias shtd="shutdown -f now"
 alias ls="ls --color"
+
+# Aliases for configs
+alias vbc="vim .config/bspwm/bspwmrc"
+alias vsc="vim .config/sxhkd/sxhkdrc"
+alias vpc="vim .config/polybar/config"
+
+
+
 pfetch
 #echo "Welcome back!"
 

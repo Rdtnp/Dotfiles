@@ -16,6 +16,10 @@ super + {shift} + @space
 alt + Tab
 	rofi -show window
 
+
+# flameshot screenshot bind
+Print
+	flameshot gui
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
@@ -23,6 +27,18 @@ super + Escape
 #
 # bspwm hotkeys
 #
+
+
+# Volume control
+
+XF86AudioLowerVolume
+	amixer set Master 5%-
+XF86AudioRaiseVolume
+	amixer set Master 5%+
+XF86AudioMute
+        amixer set Master toggle
+
+
 
 # quit/restart bspwm
 super + alt + {q,r}
