@@ -9,6 +9,13 @@ source ~/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
 source ~/.config/zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+
+
+
 
 alias nf="neofetch"
 alias nfc="neofetch | lolcat -a"
@@ -16,7 +23,7 @@ alias pf="pfetch"
 alias vim="nvim"
 alias update="sudo apt-get update&& sudo apt-get upgrade"
 alias nvfix="killall obs&&sudo rmmod nvidia_uvm && sudo modprobe nvidia_uvm"
-alias reboot="doas reboot -f now"
+alias reboot="sudo reboot -f now"
 alias shtd="shutdown -f now"
 alias ls="ls --color"
 
