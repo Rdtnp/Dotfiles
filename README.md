@@ -9,8 +9,6 @@ My dotfiles
 
 3.Acpi
 
-4.
-
 **-reqs of software:**
 
  1.bspwm&&sxhkd
