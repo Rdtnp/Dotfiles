@@ -32,6 +32,6 @@ My dotfiles
   10.kitty
   
   Also non-essential things:
-  1.p10k(does not needed anymore, but I'll update .zshrc later)
+  1.p10k(is not needed anymore, but I'll update .zshrc later)
 
   2.zsh autocomplite
