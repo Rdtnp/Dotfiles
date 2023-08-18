@@ -3,35 +3,38 @@ My dotfiles
 
 **-Reqs of system software:**
 
-1.X11(xorg + xinit)
+    1.X11(xorg + xinit)
 
-2.Pulseaudio(with amixer&alsamixer)
+    2.Pulseaudio(with amixer&alsamixer)
 
-3.Acpi
+    3.Acpi
 
 **-reqs of software:**
 
- 1.bspwm&&sxhkd
+    1.bspwm&&sxhkd
 
-  2.rofi
+    2.rofi
   
-  3.picom
+    3.picom
   
-  4.polybar
+    4.polybar
   
-  5.flameshot
+    5.flameshot
   
-  6.nvim
+    6.nvim
   
-  7.zsh
+    7.zsh
   
-  8.Nitrogen
+    8.Nitrogen
 
-  9.JetBrainsNerd Font
+    9.JetBrainsNerd Font
 
-  10.kitty
+    10.Font Awesome 6
+
+    11.kitty
   
   Also non-essential things:
-  1.p10k(is not needed anymore, but I'll update .zshrc later)
+  
+    ~~1.p10k~~(is not needed anymore, but I'll update .zshrc later)
 
-  2.zsh autocomplite
+    2.zsh autocomplite
